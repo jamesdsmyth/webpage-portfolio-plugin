@@ -1,0 +1,75 @@
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.theme-screengrabs {
+    width: 900px;
+}
+
+.imac-container {
+	width: 100%;
+	position: relative;
+	opacity: 0;
+}
+
+.iphone-container {
+	max-width: 200px;
+	position: relative;
+	margin-top: -460px;
+	float: right;
+	margin-right: 60px;
+	opacity: 0;
+}
+
+.imac-container.loaded {
+	opacity: 1;
+}
+
+.iphone-container.loaded {
+	opacity: 1;
+}
+
+.imac-container p {
+	display: none;
+}
+
+.iphone-container p {
+	display: none;
+}
+
+.imac-container .imac-screengrab {
+	height: 66.6%;
+	width: 91.92%;
+	top: 5.4%;
+	left: 4.04%;
+	position: absolute;
+	overflow-y: scroll;
+}
+
+.iphone-container .iphone-screengrab {
+	height: 71.65%;
+	width: 84%;
+	top: 14.76%;
+	left: 8%;
+	position: absolute;
+	overflow-y: scroll;
+}
+
+.imac-container .imac-screengrab .wp-caption {
+	margin: 0;
+	box-shadow: 0;
+}
+
+.iphone-container .iphone-screengrab .wp-caption {
+	margin: 0;
+	box-shadow: 0;
+}
+
+.imac-container .imac-screengrab figcaption {
+	display: none;
+}
+
+.iphone-container .iphone-screengrab figcaption {
+	display: none;
+}
