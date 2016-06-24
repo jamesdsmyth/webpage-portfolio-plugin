@@ -1,4 +1,5 @@
-img {
+.webpage,
+.container-image {
     height: auto;
     max-width: 100%;
 }
@@ -10,7 +11,6 @@ img {
 .imac-container {
 	width: 100%;
 	position: relative;
-	opacity: 0;
 }
 
 .iphone-container {
@@ -19,23 +19,6 @@ img {
 	margin-top: -460px;
 	float: right;
 	margin-right: 60px;
-	opacity: 0;
-}
-
-.imac-container.loaded {
-	opacity: 1;
-}
-
-.iphone-container.loaded {
-	opacity: 1;
-}
-
-.imac-container p {
-	display: none;
-}
-
-.iphone-container p {
-	display: none;
 }
 
 .imac-container .imac-screengrab {
@@ -54,22 +37,4 @@ img {
 	left: 8%;
 	position: absolute;
 	overflow-y: scroll;
-}
-
-.imac-container .imac-screengrab .wp-caption {
-	margin: 0;
-	box-shadow: 0;
-}
-
-.iphone-container .iphone-screengrab .wp-caption {
-	margin: 0;
-	box-shadow: 0;
-}
-
-.imac-container .imac-screengrab figcaption {
-	display: none;
-}
-
-.iphone-container .iphone-screengrab figcaption {
-	display: none;
 }
